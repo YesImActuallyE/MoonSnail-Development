@@ -1,4 +1,5 @@
 //requirements for the bots commands and stuff
+var port = process.env.PORT || 5000;
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = '%';
@@ -363,6 +364,5 @@ client.on('message', message =>{
         }
     }
 });
-
 //nice
 client.login(token);
