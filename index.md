@@ -2,7 +2,7 @@
 
 MEE69 is a multifunctional discord bot that is constantly updated and improved.  
 Most of the commands are admin/moderator only so far but plan to add lots of interactive and fun commands for all users.  
-It is currently in development so please report bugs and issues via the github.
+It is currently in development so please report bugs and issues via [the GitHub](https://github.com/seasnail8169/MEE69-Development/).
 
 ### What can i do?
 
@@ -27,7 +27,7 @@ To invite the bot to your server [click here](https://discordapp.com/oauth2/auth
 **Restart:** Restarts the bot, recommended after running most \"mass\" or \"all\" commands to stop the bot lagging or crashing. (Aliases: reload, r).   
 **Testperms:** Tests if you have permission to run commands with the bot. (Exceptions: cum, help, commands, test).
 
-For more detail see [The GitHub Page](https://github.com/seasnail8169/MEE69-Development/).
+For more detail see [the GitHub](https://github.com/seasnail8169/MEE69-Development/).
 
 ### Support
 
