@@ -7,7 +7,8 @@ It is currently in development so please report bugs and issues via the github.
 ### What can i do?
 
 MEE69 has a fairly limited array of commands so far but i plan to keep adding and improving the commands for the foreseeable future.
-The bots prefix is '%' and at the moment, cannot be changed.
+The bots prefix is '%' and at the moment, cannot be changed.  
+To invite the bot to your server [click here](https://discordapp.com/oauth2/authorize?client_id=750674353758142555&permissions=8&scope=bot) and authorise its permissions.
 
 ### Here are my commands:
 
