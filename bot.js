@@ -5,6 +5,7 @@ const prefix = '%';
 const github = ("https://github.com/seasnail8169/MEE69.git")
 const creator = ("seasnail8169")
 const BotIcon = ("https://i.imgur.com/CeWKgpa.png")
+const token = ('NzQ5ODI4MjMxNDQzNzc1NTE4.X0xp9Q.lKrSkWjFQWcQVSesL1XJYmWjyzo')
 const chalk = require('chalk');
 var setTitle = require('console-title');
 const readline = require("readline");
@@ -306,5 +307,5 @@ client.on('message', message =>{
     }
 });
 
-//uses heroku to keep it private, change this to your token if hosting locally
-client.login(process.env.token);
+//nice
+client.login(token);
