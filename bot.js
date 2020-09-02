@@ -6,7 +6,6 @@ const prefix = '%';
 const github = ("https://github.com/seasnail8169/MEE69.git")
 const creator = ("seasnail8169")
 const BotIcon = ("https://i.imgur.com/CeWKgpa.png")
-const token = ('NzUwNjc0MzUzNzU4MTQyNTU1.X099-A.le_rdir2I6BGNuJl_a3G3-ZJhJA')
 const chalk = require('chalk');
 var setTitle = require('console-title');
 const readline = require("readline");
@@ -365,4 +364,4 @@ client.on('message', message =>{
     }
 });
 //nice
-client.login(token);
+client.login(process.env.TOKEN);
