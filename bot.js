@@ -70,7 +70,10 @@ client.on("guildCreate", guild => {
 
 //when a user joins a server the bot is in
 client.on("guildMemberAdd", member => {
-    
+    console.log('ACTIVITY: User ' + member.user.tag + 'has joined the server!');
+
+    var role = member.guild.roles.find('name', 'Member');
+    member.addRole(role);
 });
 
 //when a member leaves a server the bot is in
