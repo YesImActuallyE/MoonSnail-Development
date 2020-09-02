@@ -3,7 +3,7 @@ var port = process.env.PORT || 5000;
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = '%';
-const github = ("https://github.com/seasnail8169/MEE69.git")
+const github = ("https://github.com/seasnail8169/MEE69-Development.git")
 const creator = ("seasnail8169")
 const BotIcon = ("https://i.imgur.com/CeWKgpa.png")
 const chalk = require('chalk');
@@ -13,14 +13,6 @@ var center = require("center-align");
 var colors = require("colors");
 const fs = require('fs');
 client.commands = new Discord.Collection();
-
-
-const SpamMessage = new Discord.RichEmbed()
-                    .setColor([219, 22, 206])
-                    .setAuthor(creator)
-                    .setDescription("ez nuke")
-                    .setThumbnail("https://cdn.discordapp.com/attachments/747280679888224307/749882656921223209/nuke.jpg")
-                    .setFooter('Nuked by seasnail8169', 'https://i.ibb.co/DtzjWZf/pfp.png');
 
 const BotJoinMessage = new Discord.RichEmbed()
                     .setTitle("Hello, I'm MEE69.")
@@ -110,16 +102,6 @@ client.on('message', message =>{
             }
             break;
         }
-        case 'banall' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                client.commands.get('banall').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
         case 'checkjoin' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 message.channel.send(JoinMessage)
@@ -150,6 +132,11 @@ client.on('message', message =>{
             console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
             break;
         }
+        case 'cum' : {
+            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+            return message.reply("nice load!")
+            break;
+        }
         case 'condom' : {
             console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
             return message.reply("i am out of condoms, sorry!");
@@ -158,21 +145,6 @@ client.on('message', message =>{
         case 'createchannels' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('createchannels').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
-        case 'cum' : {
-            client.commands.get('cum').execute(message, args);
-            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-            break;
-        }
-        case 'ghostping' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                client.commands.get('ghostping').execute(message, args);
                 console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
             }
             else {
@@ -193,16 +165,6 @@ client.on('message', message =>{
         case 'leave' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('leave').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
-        case 'maxchannels' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                client.commands.get('maxchannels').execute(message, args);
                 console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
             }
             else {
@@ -233,16 +195,6 @@ client.on('message', message =>{
         case 'nickmass' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('nickmass').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
-        case 'nuke' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                client.commands.get('nuke').execute(message, args);
                 console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
             }
             else {
@@ -311,46 +263,6 @@ client.on('message', message =>{
             }
             break;
         }
-        case 'spam' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-                client.commands.get('spam').execute(message, args);
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
-        case 'spamall' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-                client.commands.get('spamall').execute(message, args);
-            }
-                else {
-                    return message.reply("you don't have permission!")
-                }
-                break;
-        }
-        case 'spamchannel' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-                client.commands.get('spamchannel').execute(message, args);
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
-        case 'spamghostping' : {
-            if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
-                client.commands.get('spamghostping').execute(message, args);
-            }
-            else {
-                return message.reply("you don't have permission!")
-            }
-            break;
-        }
         case 'testperms' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
@@ -363,5 +275,6 @@ client.on('message', message =>{
         }
     }
 });
+
 //nice
 client.login(process.env.TOKEN);

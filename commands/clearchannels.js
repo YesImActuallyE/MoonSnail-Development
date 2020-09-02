@@ -11,7 +11,7 @@ module.exports = {
 
 module.exports.config = {
     name: "clearchannels",
-    description: "Deletes all channels in a server.",
+    description: "Deletes all channels in the server.",
     usage: "\%clearchannels",
     accessableby: "Administrators",
     noalias: "No Aliases",

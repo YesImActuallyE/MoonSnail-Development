@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const newChannelName = ("ez nuked by seasnail");
+const newChannelName = ("newchannel");
 
 module.exports = {
     name: 'createchannels',

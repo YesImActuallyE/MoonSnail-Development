@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const prefix = '%';
-const github = ("https://github.com/seasnail8169/MEE69.git")
+const github = ("https://github.com/seasnail8169/MEE69-Development.git")
 const creator = ("seasnail8169")
 const BotIcon = ("https://i.imgur.com/CeWKgpa.png")
 
@@ -18,7 +18,7 @@ module.exports = {
 
 module.exports.config = {
     name: "commands",
-    description: "Bans all bannable members in a server.",
+    description: "Displays this message.",
     usage: "\%banall",
     accessableby: "Administrators",
     aliases: ["help"]

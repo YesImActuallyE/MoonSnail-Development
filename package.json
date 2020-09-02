@@ -1,7 +1,7 @@
 {
   "name": "mee69-development",
   "version": "0.1.0",
-  "description": "My first attempt at a js discord bot lol.",
+  "description": "MEE69 is a multifunctional discord bot that is constantly updated and improved.",
   "main": "bot.js",
   "dependencies": {
     "center-align": "^1.0.1",
