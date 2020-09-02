@@ -2,7 +2,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = '%';
-const token = ('NzQ5ODI4MjMxNDQzNzc1NTE4.X0xp9Q.lKrSkWjFQWcQVSesL1XJYmWjyzo')
 const github = ("https://github.com/seasnail8169/MEE69.git")
 const creator = ("seasnail8169")
 const BotIcon = ("https://i.imgur.com/CeWKgpa.png")
@@ -307,4 +306,5 @@ client.on('message', message =>{
     }
 });
 
-client.login(token);
+//uses heroku to keep it private, change this to your token if hosting locally
+client.login(process.env.token);
