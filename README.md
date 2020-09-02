@@ -1,5 +1,5 @@
-[![Discord Bots](https://discordbots.org/api/widget/status/475421235950518292.svg)](https://discordbots.org/bot/750674353758142555)
-[![Discord Bots](https://discordbots.org/api/widget/servers/475421235950518292.svg)](https://discordbots.org/bot/750674353758142555)
+[![Discord Bots](https://discordbots.org/api/widget/status/750674353758142555.svg)](https://discordbots.org/bot/750674353758142555)
+[![Discord Bots](https://discordbots.org/api/widget/servers/750674353758142555.svg)](https://discordbots.org/bot/750674353758142555)
 
 ## Welcome to MEE69
 
