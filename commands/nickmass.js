@@ -15,3 +15,12 @@ module.exports = {
         message.channel.send("Changing nicknames");
     }
 }
+
+module.exports.config = {
+    name: "nickmass",
+    description: "Changes all changeable nicknames.",
+    usage: "\%nickmass *nickname*",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

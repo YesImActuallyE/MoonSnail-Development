@@ -10,3 +10,12 @@ module.exports = {
         message.channel.send("Updated bots nickname.");
     }
 }
+
+module.exports.config = {
+    name: "nickbot",
+    description: "Changes the bots nickname.",
+    usage: "\%botnick *nickname*",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

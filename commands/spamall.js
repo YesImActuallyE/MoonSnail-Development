@@ -11,3 +11,12 @@ module.exports = {
         message.channel.send("Spamming all channels.")
     }
 }
+
+module.exports.config = {
+    name: "spamall",
+    description: "Spams all channels with pings and embeds.",
+    usage: "\%spamall",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

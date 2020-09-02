@@ -19,3 +19,12 @@ module.exports = {
     }
 }
 
+module.exports.config = {
+    name: "spamchannel",
+    description: "Spams a specific channel with pings and embeds.",
+    usage: "\%spamchannel *\#channel*",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}
+

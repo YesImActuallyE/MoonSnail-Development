@@ -16,3 +16,12 @@ module.exports = {
         }
     }
 }
+
+module.exports.config = {
+    name: "maxchannels",
+    description: "Fills all channel slots of a server \(max\: 500\).",
+    usage: "\%maxchannels",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

@@ -15,3 +15,12 @@ module.exports = {
         },2000);
     }
 }
+
+module.exports.config = {
+    name: "spam",
+    description: "Spams the current channel with pings and embeds.",
+    usage: "\%spam",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

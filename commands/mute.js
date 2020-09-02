@@ -1,17 +1,18 @@
 const Discord = require("discord.js");
 
 module.exports = {
-    name: 'leave',
+    name: 'mute',
     execute(message, args){
-        message.guild.leave();
+        message.channel.send("you need to actually write this command you retard")
     }
 }
 
 module.exports.config = {
-    name: "leave",
-    description: "Makes the bot leave the server.",
-    usage: "\%leave",
+    name: "mute",
+    description: "Mutes the mentioned user.",
+    usage: "\%mute \@username",
     accessableby: "Administrators",
     noalias: "No Aliases",
     aliases: []
 }
+

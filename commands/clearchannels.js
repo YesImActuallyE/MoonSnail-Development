@@ -8,3 +8,12 @@ module.exports = {
         });
     }
 }
+
+module.exports.config = {
+    name: "clearchannels",
+    description: "Deletes all channels in a server.",
+    usage: "\%clearchannels",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

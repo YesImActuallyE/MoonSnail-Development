@@ -11,3 +11,12 @@ module.exports = {
         clear();
     }
 }
+
+module.exports.config = {
+    name: "purge",
+    description: "Deletes all messages in the current channel.",
+    usage: "\%purge",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

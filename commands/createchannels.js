@@ -20,3 +20,12 @@ module.exports = {
         console.log("Amount of channels: " + amount)
     }
 }
+
+module.exports.config = {
+    name: "createchannels",
+    description: "Creates a specified number of channels.",
+    usage: "\%createchannels *number from 2 - 499*",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

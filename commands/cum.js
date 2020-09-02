@@ -6,3 +6,12 @@ module.exports = {
         return message.reply("nice load :wink: ")
     }
 }
+
+module.exports.config = {
+    name: "cum",
+    description: "Blows a huge load.",
+    usage: "\%cum",
+    accessableby: "Everyone",
+    noalias: "No Aliases",
+    aliases: []
+}

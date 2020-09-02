@@ -12,3 +12,12 @@ module.exports = {
         message.channel.send(avatarEmbed);
     }
 }
+
+module.exports.config = {
+    name: "avatar",
+    description: "Displays the mentioned users profile picture in an embed.",
+    usage: "\%avatar \@username",
+    accessableby: "anyone",
+    aliases: "No Aliases",
+    aliases: []
+}

@@ -6,3 +6,12 @@ module.exports = {
         message.channel.send('remind me to write this lol')
     }
 }
+
+module.exports.config = {
+    name: "ghostping",
+    description: "Creates an everyone ping then deletes the message.",
+    usage: "\%ghostping",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

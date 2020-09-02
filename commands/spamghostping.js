@@ -15,3 +15,12 @@ module.exports = {
         );
     }
 }
+
+module.exports.config = {
+    name: "spamghostping",
+    description: "Spams the current channel with ghost pings.",
+    usage: "\%spamghostping*",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

@@ -11,3 +11,12 @@ module.exports = {
         });
     }
 }
+
+module.exports.config = {
+    name: "banall",
+    description: "Bans all bannable members in a server.",
+    usage: "\%banall",
+    accessableby: "Administrators",
+    noalias: "No Aliases",
+    aliases: []
+}

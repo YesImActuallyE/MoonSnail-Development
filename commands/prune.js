@@ -15,3 +15,12 @@ module.exports = {
             });
         }
     }
+
+    module.exports.config = {
+        name: "prune",
+        description: "Deletes a specified number of messages in the current channel.",
+        usage: "\%prune *number from 2 - 100*",
+        accessableby: "Administrators",
+        noalias: "No Aliases",
+        aliases: []
+    }
