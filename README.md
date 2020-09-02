@@ -1,4 +1,4 @@
-[![Discord Bots](https://top.gg/api/widget/750674353758142555.svg?usernamecolor=FFFFFF&topcolor=000000)
+![Discord Bots](https://top.gg/api/widget/750674353758142555.svg?usernamecolor=FFFFFF&topcolor=000000)
 
 ## Welcome to MEE69
 
