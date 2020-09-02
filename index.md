@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to MEE69
 
-You can use the [editor on GitHub](https://github.com/seasnail8169/MEE69-Development/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+MEE69 is a multifunctional discord bot that is constantly updated and improved.  
+Most of the commands are admin/moderator only so far but plan to add lots of interactive and fun commands for all users.  
+It is currently in development so please report bugs and issues via the github.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What can i do?
 
-### Markdown
+MEE69 has a fairly limited array of commands so far but i plan to keep adding and improving the commands for the foreseeable future.
+The bots prefix is '%' and at the moment, cannot be changed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Here are my commands:
 
-```markdown
-Syntax highlighted code block
+**Avatar:** Displays the mentioned users profile picture in an embed.   
+**Ban:** Bans the mentioned user.   
+**Clearchannels:** Deletes all channels in the server.   
+**Commands:** Displays this message. (Aliases: help).   
+**Createchannels:** Creates a specified number of channels.   
+**Kick:** Kicks mentioned user.   
+**Leave:** Makes the bot leave the current server.   
+**Mute:** Mutes the mentioned user.   
+**Nickbot:** Changes the bots nickname in the current server.   
+**Nickmass:** Changes all renameable members nicknames to the specified name.   
+**Prune:** Deletes a specified amount of messages in the current channel (Usage: %prune *number between 2 and 100*)   
+**Purge:** Deletes all messages in the current channel.   
+**Restart:** Restarts the bot, recommended after running most \"mass\" or \"all\" commands to stop the bot lagging or crashing. (Aliases: reload, r).   
+**Testperms:** Tests if you have permission to run commands with the bot. (Exceptions: cum, help, commands, test).
 
-# Header 1
-## Header 2
-### Header 3
+For more detail see [The GitHub Page](https://github.com/seasnail8169/MEE69-Development/).
 
-- Bulleted
-- List
+### Support
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seasnail8169/MEE69-Development/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having issues with the bot? Check out the [MEE69 Support server](https://discord.gg/Pta3APY) or report them [here](https://github.com/seasnail8169/MEE69-Development/issues) and I’ll help you sort it out.
