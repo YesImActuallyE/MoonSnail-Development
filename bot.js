@@ -89,13 +89,13 @@ client.on('message', message =>{
     switch(command) {
         case 'avatar' : {
             client.commands.get('avatar').execute(message, args);
-            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+            console.log("ACTIVITY: " + message.author.username + " ran the command: " + message.content)
             break;
         }
         case 'ban' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('ban').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -105,7 +105,7 @@ client.on('message', message =>{
         case 'checkjoin' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 message.channel.send(JoinMessage)
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -115,7 +115,7 @@ client.on('message', message =>{
         case 'clearchannels' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('clearchannels').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -124,28 +124,28 @@ client.on('message', message =>{
         }
         case 'commands' : {
             client.commands.get('commands').execute(message, args);
-            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+            console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             break;
         }
         case 'help' : {
             client.commands.get('commands').execute(message, args);
-            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+            console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             break;
         }
         case 'cum' : {
-            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+            console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             return message.reply("nice load!")
             break;
         }
         case 'condom' : {
-            console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+            console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             return message.reply("i am out of condoms, sorry!");
             break;
         }
         case 'createchannels' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('createchannels').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -155,7 +155,7 @@ client.on('message', message =>{
         case 'kick' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('kick').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -165,7 +165,7 @@ client.on('message', message =>{
         case 'leave' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('leave').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -175,7 +175,7 @@ client.on('message', message =>{
         case 'mute' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('mute').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -185,7 +185,7 @@ client.on('message', message =>{
         case 'nickbot' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('nickbot').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -195,7 +195,7 @@ client.on('message', message =>{
         case 'nickmass' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('nickmass').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -205,7 +205,7 @@ client.on('message', message =>{
         case 'prune' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('prune').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -215,7 +215,7 @@ client.on('message', message =>{
         case 'purge' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
                 client.commands.get('purge').execute(message, args);
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
             }
             else {
                 return message.reply("you don't have permission!")
@@ -224,7 +224,7 @@ client.on('message', message =>{
         }
         case 'restart' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
                 message.channel.send("Restarting…")
                 client.destroy();
             }
@@ -235,7 +235,7 @@ client.on('message', message =>{
         }
         case 'reload' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
                 message.channel.send("Restarting…")
                 client.destroy();            }
             else {
@@ -245,7 +245,7 @@ client.on('message', message =>{
         }
         case 'r' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
                 message.channel.send("Restarting…")
                 client.destroy();            }
             else {
@@ -255,7 +255,7 @@ client.on('message', message =>{
         }
         case 'shutdown' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
                 process.exit();
             }
             else {
@@ -265,7 +265,7 @@ client.on('message', message =>{
         }
         case 'testperms' : {
             if(message.member.hasPermission('ADMINISTRATOR')){
-                console.log("ACTIVITY: " + message.author.displayName + " ran the command: " + message.content)
+                console.log("ACTIVITY: " +   message.author.username + " ran the command: " + message.content)
                 client.commands.get('testperms').execute(message, args);
             }
             else {
