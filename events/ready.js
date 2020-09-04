@@ -25,8 +25,8 @@ module.exports = async client => {
         client.user.setPresence({
             status: 'dnd',
             activity: {
-                name: 'bot is being rewritten!',
-                type: 'PLAYING',
+                name: '%help',
+                type: 'LISTENING',
                 url: 'https://github.com/seasnail8169/MEE69-Development/'
             }
         });

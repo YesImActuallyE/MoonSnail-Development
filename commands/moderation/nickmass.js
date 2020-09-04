@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const prefix = '%';
 
 module.exports = {
     name: "nickmass",
@@ -8,7 +9,7 @@ module.exports = {
     run: (client, message, args) => {
         console.log("ACTIVITY: " + message.author.username + " ran the command: " + message.content)
         if (message.member.hasPermission('ADMINISTRATOR')) {
-            let nick = args[0];
+            let nick = message.content.slice((prefix+"nickmass").length)
             if(!nick) return message.channel.send("Please specify a nickname!")
         
             message.guild.members.cache.forEach(member => {
