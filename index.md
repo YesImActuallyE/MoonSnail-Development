@@ -1,5 +1,3 @@
-![Discord Bots](https://top.gg/api/widget/750674353758142555.svg?usernamecolor=FFFFFF&topcolor=000000)
-
 # Welcome to MEE69
 
 MEE69 is a multifunctional discord bot that is constantly updated and improved.  
