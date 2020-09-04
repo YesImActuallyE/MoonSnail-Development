@@ -1,8 +1,12 @@
 const Discord = require("discord.js");
 
 module.exports = {
-    name: 'prune',
-    execute(message, args){
+    name: "prune",
+    category: 'moderation',
+    description: "Deletes a specified number of messages in the current channel.",
+    usage: "prune *number from 2 - 100*",
+    run: (client, message, args) => {
+        console.log("ACTIVITY: " + message.author.username + " ran the command: " + message.content)
         const amount = parseInt(args[0]);
             if (isNaN(amount)) {
                 return message.reply('that doesn\'t seem to be a valid number.');
@@ -14,13 +18,4 @@ module.exports = {
                 message.channel.send('There was an error trying to prune messages in this channel!');
             });
         }
-    }
-
-    module.exports.config = {
-        name: "prune",
-        description: "Deletes a specified number of messages in the current channel.",
-        usage: "\%prune *number from 2 - 100*",
-        accessableby: "Administrators",
-        noalias: "No Aliases",
-        aliases: []
     }
