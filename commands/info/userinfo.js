@@ -4,7 +4,7 @@ const moment = require("moment")
 module.exports = {
   name: "userinfo",
   aliases: ["whois", "user"],
-  usage: "userinfo <MENTION>",
+  usage: "userinfo <userid>",
   category: 'info',
   description: "Get advance stats of given person or yourself",
 

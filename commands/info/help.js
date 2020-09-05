@@ -46,7 +46,6 @@ function getCMD(client, message, input) {
     if (cmd.description) info += `\n**Description**: ${cmd.description}`;
     if (cmd.usage) {
         info += `\n**Usage**: ${cmd.usage}`;
-        embed.setFooter('<> = REQUIRED | [] = OPTIONAL')
     }
     if (cmd.usage2) info += `\n**Usage 2**: ${cmd.usage2}`;
 
